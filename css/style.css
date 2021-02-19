@@ -221,6 +221,31 @@ body {
   font-size: 26px;
 }
 
+.banner_section {
+  background-image: url("../img/banner-img.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+.banner_section h1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 64px;
+  font-weight: 800px;
+  padding-top: 35%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #fff;
+  text-transform: uppercase;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
 @media (max-width: 768px) {
   body.lock {
     overflow: hidden;
